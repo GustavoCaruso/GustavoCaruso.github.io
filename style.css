@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.center{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header{
+    background-color: black ;
+    padding: 20px 0 ;
+    border-bottom: 2px black;
+}
+
+.logo{
+    color:black;
+
+}
+
+.logo h2{
+    font-weight: normal;
+    font-size: 22px;
+}
+.menu{
+    width: 50%;
+    text-align: right;
+}
+
+.menu a{
+    color: black;
+    font-size: 14px;
+    text-decoration: none;
+    margin-right: 2px;
+    transition: 0.5s;
+}
+
+.menu a:hover{
+    color: black;
+}
+
+section.main{
+    background-image: url(./img/fundo.jpg);
+    padding: 100px 0 ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.main_second {
+    width: 100%;
+    margin: 60px 0;
+    text-align: center;
+}
+
+.main_second h2{
+    color: black;
+    font-size: 40px;
+}
+
+.main_second p{
+    color: black;
+    font-size: 19px;
+    margin: 10px 0;
+}
+
+.info_flutuantes{
+    display: flex;
+    flex-wrap: wrap;
+    width: 700px; 
+    margin-left: auto;
+    margin-right: auto; 
+
+
+}
+    
+.info_single{
+    background-color: white;
+    width: 24%;
+    margin-right: 1%;
+    padding: 50px 20px;
+    border-radius: 20px;
+    
+}
+
+.info_single i{
+    color: black;
+    font-size: 10px;
+    
+}
+
+.info_single h2{
+    color: black;
+    margin: 20px 0;
+    font-size: 20px;
+}
+
+.info_single p{
+    color: black;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+section.sobre{
+    padding: 80px 0;
+}
+
+.chamada_sobre{
+    width:100%;
+    text-align: center;
+}
+
+.chamada_sobre h2{
+    color: brown;
+    text-transform: uppercase;
+}
+
+.chamada_sobre p{
+    font-size: 14px;
+    color: gray;
+    margin:10px 0;
+
+}
+
+.conteudo_sobre{display: flex;
+
+}
+
+.conteudo_sobre p{
+    margin: 0 20px;
+}
+
+@media screen and (max-width: 768px){
+    .info_single{
+        width: 100%;
+    }
+}
